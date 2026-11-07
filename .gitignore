@@ -1,0 +1,23 @@
+# macOS metadata
+.DS_Store
+
+# Simulation output & waveform binaries
+*.vcd
+*.vpd
+*.fsdb
+*.wlf
+*.out
+*.log
+*.key
+
+# Icarus / Verilator outputs
+*.vvp
+obj_dir/
+
+# EDA Playground / Vendor tool cache folders
+work/
+transcript
+INCA_libs/
+csrc/
+simv*
+.simvision/
