@@ -1,4 +1,4 @@
-module moduleName #(
+module n_adder #(
     parameter N = 8
 ) (
     input logic signed [N-1:0] A,
