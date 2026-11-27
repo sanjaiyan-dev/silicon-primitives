@@ -16,7 +16,7 @@ module alu #(
       'b010: alu_out = bus_a - bus_b;
       'b011: alu_out = bus_a * bus_b;
       'b100: alu_out = bus_a / bus_b;
-      default alu_out = alu_a;
+      default alu_out = bus_a;
     endcase
 
   assign zero = (alu_out == 0);
