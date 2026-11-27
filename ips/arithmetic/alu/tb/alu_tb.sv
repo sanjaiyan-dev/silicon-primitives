@@ -52,14 +52,18 @@ module alu_tb;
 
     #30 bus_a <= 8'd5;
     bus_b <= 8'd10;
-    sel   <= 3'b0000;
+    sel   <= 3'b000;
 
     #10 bus_a <= 8'd30;
     bus_b <= -8'd10;
-    sel   <= 3'b0001;
+    sel   <= 3'b001;
 
     #10 bus_a <= 8'd5;
     bus_b <= 8'd10;
-    sel   <= 3'b0010;
+    sel   <= 3'b010;
+
+    #10 bus_a <= 8'd5;
+    bus_b <= 8'd12;
+    sel   <= 3'b100;
   end
 endmodule
